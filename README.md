@@ -16,7 +16,7 @@ This project employs a machine learning classification algorithm to identify fra
 - Organization: Trello (Kanban Methodology), Miro
 
 ### Objectives 🎯
-Fraud in automobile insurance has increased significantly in recent years. This substantial rise in fraudulent claims leads to greater scrutiny and allocation of resources by insurers to combat fraud.
+Vehicle insurers handle a large number of accident and damage claims each year. However, a significant portion of these claims may be fraudulent. Detecting fraudulent claims is crucial to reduce financial losses for insurance companies and keep insurance premiums fair for all customers.
 
 For these reasons, the use of advanced prediction techniques to detect fraudulent claims is becoming increasingly crucial.
 
