@@ -28,6 +28,18 @@ Therefore, we have decided to implement a fraud detection model for auto insuran
   
 ![2024-08-26 12_48_29-● 1 IF Exploración datos ipynb - Caso Insurance - Visual Studio Code](https://github.com/user-attachments/assets/22b6ff3e-3f5f-4dd7-83f5-8fdf4890f96c)
 
+### EDA 📈
 
-### Team
+### Models ⚙️
+
+### Conclusions 📝
+
+### Future Improvements 🔧
+- Implementation of a scoring system
+- Development of a regression model to predict the amount of fraud
+- Ongoing evaluation of the model
+- Incorporate external data (known fraud databases and socioeconomic data)
+- Implement a continuous feedback system
+  
+### Team 👥
 This project has been created by: Flora Comesaña & Noelia Beltrán
