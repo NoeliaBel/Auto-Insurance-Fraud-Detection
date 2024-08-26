@@ -42,6 +42,11 @@ We can see a preview of some elements of the exploratory analysis
 
 ### Models ⚙️
 
+![image](https://github.com/user-attachments/assets/b3aa31c3-eb76-490a-af2a-fadb25a966d2)
+
+
+### Challenges and Limitations
+
 ### Conclusions 📝
 
 ### Future Improvements 🔧
