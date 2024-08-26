@@ -32,7 +32,23 @@ Therefore, we have decided to implement a fraud detection model for auto insuran
 We can see a preview of some elements of the exploratory analysis
 
 
+
 ![image](https://github.com/user-attachments/assets/0429fc96-9438-49c5-95e7-611858ae0f81)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,7 +58,8 @@ We can see a preview of some elements of the exploratory analysis
 
 
 
-![image](https://github.com/user-attachments/assets/6fdf4967-5ef6-46d8-8755-0894938c56c4)
+
+![2024-08-26 15_33_53-Presentación Detección de Fraude pptx - Microsoft PowerPoint Online - Brave](https://github.com/user-attachments/assets/30905f66-683b-4c62-9500-d35e95dbe36a)
 
 
 
