@@ -41,7 +41,7 @@ We can see a preview of some elements of the exploratory analysis
 
 
 ### Models ⚙️
-- Considered Models: Using PyCaret: Gradient Boosting Classifier (GBC), Logistic Regression, LightGMB, XGBoost.
+- We evaluated several models using PyCaret, including: Gradient Boosting Classifier (GBC), Logistic Regression, LightGBM, XGBoost. Each model was assessed based on various performance metrics to determine its effectiveness in detecting fraud.
 - Selected Model: We have chosen the Gradient Boosting Classifier as our final model. 
 - GridSearch was applied to the Gradient Boosting Classifier to optimize hyperparameters and improve model performance.
 - Train and test metrics were compared to assess possible overfitting.
