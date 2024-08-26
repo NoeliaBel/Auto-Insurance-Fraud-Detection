@@ -29,6 +29,9 @@ Therefore, we have decided to implement a fraud detection model for auto insuran
 ![2024-08-26 12_48_29-● 1 IF Exploración datos ipynb - Caso Insurance - Visual Studio Code](https://github.com/user-attachments/assets/22b6ff3e-3f5f-4dd7-83f5-8fdf4890f96c)
 
 ### EDA 📈
+We can see a preview of some elements of the exploratory analysis
+![image](https://github.com/user-attachments/assets/56f6c66e-59e5-4ed3-a185-ed964f5139e3)
+
 
 ### Models ⚙️
 
