@@ -30,7 +30,11 @@ Therefore, we have decided to implement a fraud detection model for auto insuran
 
 ### EDA 📈
 We can see a preview of some elements of the exploratory analysis
-![image](https://github.com/user-attachments/assets/56f6c66e-59e5-4ed3-a185-ed964f5139e3)
+
+![image](https://github.com/user-attachments/assets/bef58645-fa71-42f7-8d71-c2368c96cb37)
+![image](https://github.com/user-attachments/assets/dcb1853c-2088-4067-869d-a82246bb8144)
+
+
 
 
 ### Models ⚙️
