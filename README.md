@@ -23,7 +23,7 @@ For these reasons, the use of advanced prediction techniques to detect fraudulen
 Therefore, we have decided to implement a fraud detection model for auto insurance that could significantly enhance the company's ability to identify fraud, support fraud prevention analysts, and direct the company’s financial resources towards claims with a higher likelihood of being fraudulent.
 
 ### Dataset 🗂️
-- This dataset includes vehicle information such as attributes, model, and accident details as well as policy information including policy type and tenure. 
+- The dataset, sourced from Kaggle, contains 15,420 rows and 33 columns, including information such as vehicle details, accident data, and other relevant attributes.
 - The target variable is to determine whether a claim application is fraudulent or not, represented by FraudFound_P.
   
 ![2024-08-26 12_48_29-● 1 IF Exploración datos ipynb - Caso Insurance - Visual Studio Code](https://github.com/user-attachments/assets/22b6ff3e-3f5f-4dd7-83f5-8fdf4890f96c)
