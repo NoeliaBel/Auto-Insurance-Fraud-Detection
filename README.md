@@ -7,10 +7,10 @@ This project employs a machine learning classification algorithm to identify fra
 
 
 ### Technologies 💻
-◾Programming Language: Python
-◾Main Libraries: NumPy, Pandas, Scikit-Learn
-◾AutoML Frameworks: PyCaret, AutoGluon 
-◾Data Visualization: Matplotlib, Seaborn, Power BI
-◾Machine Learning: Classification Models
-◾Version Control: Git, GitHub
-◾Organization: Trello (Kanban Methodology), Miro
+- Programming Language: Python
+- Main Libraries: NumPy, Pandas, Scikit-Learn
+- AutoML Frameworks: PyCaret, AutoGluon 
+- Data Visualization: Matplotlib, Seaborn, Power BI
+- Machine Learning: Classification Models
+- Version Control: Git, GitHub
+- Organization: Trello (Kanban Methodology), Miro
