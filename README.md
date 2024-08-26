@@ -10,7 +10,7 @@ This project employs a machine learning classification algorithm to identify fra
 - Programming Language: Python
 - Main Libraries: NumPy, Pandas, Scikit-Learn
 - AutoML Frameworks: PyCaret, AutoGluon 
-- Data Visualization: Matplotlib, Seaborn, Power BI
+- Data Visualization: Matplotlib, Seaborn, PowerBI
 - Machine Learning: Classification Models
 - Version Control: Git, GitHub
 - Organization: Trello (Kanban Methodology), Miro
@@ -23,3 +23,10 @@ For these reasons, the use of advanced prediction techniques to detect fraudulen
 Therefore, we have decided to implement a fraud detection model for auto insurance that could significantly enhance the company's ability to identify fraud, support fraud prevention analysts, and direct the company’s financial resources towards claims with a higher likelihood of being fraudulent.
 
 ### Dataset 🗂️
+- This dataset includes vehicle information such as attributes, model, and accident details as well as policy information including policy type and tenure. 
+- The target variable is to determine whether a claim application is fraudulent or not, represented by FraudFound_P.
+- 
+![2024-08-26 12_47_00-● 1 IF Exploración datos ipynb - Caso Insurance - Visual Studio Code](https://github.com/user-attachments/assets/07cae62e-b16c-4a99-adc6-8ba998d5b93c)
+
+### Team
+This project has been created by: Flora Comesaña & Noelia Beltrán
