@@ -49,6 +49,8 @@ We can see a preview of some elements of the exploratory analysis
 - GridSearch was applied to the Gradient Boosting Classifier to optimize hyperparameters and improve model performance.
 - Train and test metrics were compared to assess possible overfitting.
 
+### Evaluation
+
 ### Challenges and Limitations
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
 
