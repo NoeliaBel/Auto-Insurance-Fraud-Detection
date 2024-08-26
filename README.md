@@ -7,8 +7,10 @@ This project employs a machine learning classification algorithm to identify fra
 
 
 ### Technologies 💻
-- Programming language: Python
-- Main libraries: Numpy, Pandas, Scikit-Learn
-- Data visualization: Matplotlib, Seaborn
-- Regression Models: LinearRegression, LightGBM, CatBoost, XGBoost
-- Organization: Notion + Miro
+◾Programming Language: Python
+◾Main Libraries: NumPy, Pandas, Scikit-Learn
+◾AutoML Frameworks: PyCaret, AutoGluon 
+◾Data Visualization: Matplotlib, Seaborn, Power BI
+◾Machine Learning: Classification Models
+◾Version Control: Git, GitHub
+◾Organization: Trello (Kanban Methodology), Miro
