@@ -41,15 +41,15 @@ We can see a preview of some elements of the exploratory analysis
 
 
 ### Models ⚙️
-- Considered Models: Using PyCaret:
-  
-![image](https://github.com/user-attachments/assets/b3aa31c3-eb76-490a-af2a-fadb25a966d2)
-
+- Considered Models: Using PyCaret: Gradient Boosting Classifier (GBC), Logistic Regression, LightGMB, XGBoost.
 - Selected Model: We have chosen the Gradient Boosting Classifier as our final model. 
 - GridSearch was applied to the Gradient Boosting Classifier to optimize hyperparameters and improve model performance.
 - Train and test metrics were compared to assess possible overfitting.
 
 ### Evaluation
+![image](https://github.com/user-attachments/assets/58bc5290-24dd-4ba1-a6e3-b001a844fba1)
+
+
 
 ### Challenges and Limitations
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
