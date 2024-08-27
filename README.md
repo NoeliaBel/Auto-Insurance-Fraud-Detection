@@ -46,26 +46,28 @@ We can see a preview of some elements of the exploratory analysis
 - GridSearch was applied to the Gradient Boosting Classifier to optimize hyperparameters and improve model performance.
 - Train and test metrics were compared to assess possible overfitting.
 
-### Evaluation
+### Metrics
+The performance of the Gradient Boosting Classifier (GBC), the selected model, was evaluated using key metrics on both the training and test sets. Below are the results:
 ![image](https://github.com/user-attachments/assets/58bc5290-24dd-4ba1-a6e3-b001a844fba1)
 
-
+### Key Results
+- Accuracy: The model achieved high accuracy on both the training set (0.98) and the test set (0.96). This indicates that the model generalizes well with minimal overfitting.
+- AUC-ROC: The AUC-ROC score is close to 1, with a value of 0.99 for both datasets, demonstrating the model's strong ability to distinguish between fraudulent and non-fraudulent claims.
+- Precision: The precision of 66.8% on the test set indicates that when the model predicts fraud, it is correct approximately 66.8% of the cases. This suggests a significant number of false positives.
+- Recall: The recall of 98.2% on the test set shows that the model successfully detects 98.2% of fraud cases. This is a strong performance, as the primary goal is to identify as many fraud cases as possible.
+- F1 Score: The F1 score of 79.5% on the test set reflects a good balance between precision and recall. While the F1 score indicates that the model effectively balances both aspects, the relatively low precision (66.8%) suggests there is room for improvement in the model’s performance.
 
 ### Challenges and Limitations
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
 
 - Severe Class Imbalance in the Dataset - Solution: Applied SMOTE technique to balance the dataset.
-
 - High Proportion of Categorical Variables - Solution: Used OneHotEncoder for encoding and created additional features.
-
 - Default decision threshold (0.5) was not optimal for maximizing the model's sensitivity - Solution: Adjusted the threshold to 0.2 to improve sensitivity.
-
-- Risk of Overfitting - Solution: Performed extensive evaluation to ensure model generalization.
-
-### Power BI Visualization
+- Risk of Overfitting - Solution: Performed additional techniques, such as cross-validation, increased training data, and hyperparameter tuning, to mitigate it.
 
 ### Conclusions 📝
-
+- Despite these challenges, the model performs well with good detection rates. While there is still room for improvement, it meets the requirements and generally gives reliable results.
+- 
 ### Future Improvements 🔧
 - Implementation of a scoring system that classifies clients based on their risk level.
 - Development of a regression model to predict the amount of fraud by requesting additional data (e.g., fraud amount) from the client.
