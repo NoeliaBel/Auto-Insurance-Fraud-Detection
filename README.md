@@ -7,13 +7,13 @@ This project employs a machine learning classification algorithm to identify fra
 
 
 ### Technologies 💻
-- Programming Language: Python
-- Main Libraries: NumPy, Pandas, Scikit-Learn
-- AutoML Frameworks: PyCaret, AutoGluon 
-- Data Visualization: Matplotlib, Seaborn, PowerBI
-- Machine Learning: Classification Models
-- Version Control: Git, GitHub
-- Organization: Trello (Kanban Methodology), Miro
+- **Programming Language**: Python
+- **Main Libraries**: NumPy, Pandas, Scikit-Learn
+- **AutoML Frameworks**: PyCaret, AutoGluon 
+- **Data Visualization**: Matplotlib, Seaborn, PowerBI
+- **Machine Learning**: Classification Models
+- **Version Control**: Git, GitHub
+- **Organization**: Trello (Kanban Methodology), Miro
 
 ### Objectives 🎯
 Vehicle insurers handle a large number of accident and damage claims each year. However, a significant portion of these claims may be fraudulent. Detecting fraudulent claims is crucial to reduce financial losses for insurance companies and keep insurance premiums fair for all customers.
@@ -52,32 +52,32 @@ The performance of the selected model, the Gradient Boosting Classifier (GBC), w
 ![image](https://github.com/user-attachments/assets/58bc5290-24dd-4ba1-a6e3-b001a844fba1)
 
 ### Key Results
-- Accuracy: The model achieved high accuracy on both the training set (98%) and the test set (96%). This indicates that the model generalizes well with minimal overfitting.
-- AUC-ROC: An AUC-ROC score of 99.4% demonstrates the model's strong ability to differentiate between fraudulent and non-fraudulent claims.
-- Precision: The precision of 66.8% indicates that when the model predicts fraud, it is correct approximately 66.8% of the cases. This suggests a significant number of false positives.
-- Recall: The recall of 98.2% shows that the model successfully detects 98.2% of fraud cases. This is a strong performance, as the primary goal is to identify as many fraud cases as possible.
-- F1 Score: The F1 score of 79.5% reflects a good balance between precision and recall. While the F1 score indicates that the model effectively balances both aspects, the relatively low precision (66.8%) suggests there is room for improvement in the model’s performance.
+- **Accuracy**: The model achieved high accuracy on both the training set (98%) and the test set (96%). This indicates that the model generalizes well with minimal overfitting.
+- **AUC-ROC**: An AUC-ROC score of 99.4% demonstrates the model's strong ability to differentiate between fraudulent and non-fraudulent claims.
+- **Precision**: The precision of 66.8% indicates that when the model predicts fraud, it is correct approximately 66.8% of the cases. This suggests a significant number of false positives.
+- **Recall**: The recall of 98.2% shows that the model successfully detects 98.2% of fraud cases. This is a strong performance, as the primary goal is to identify as many fraud cases as possible.
+- **F1 Score**: The F1 score of 79.5% reflects a good balance between precision and recall. While the F1 score indicates that the model effectively balances both aspects, the relatively low precision (66.8%) suggests there is room for improvement in the model’s performance.
 
 ### Fraud Patterns and Insights (Based on model results)
-- Age: Most fraudulent claims come from individuals aged 31-40.
-- Gender: There is a higher incidence of fraud among men.
-- Location: Urban areas show a higher frequency of fraudulent claims.
-- Vehicle Brands: Higher fraud rates are associated with brands like Pontiac, Toyota, Honda, Mazda, and Chevrolet.
-- Timing: Fraudulent claims are more common in May and January.
-- Policy Type: Fraudulent claims are more often linked to comprehensive or collision coverage policies.
-- Deductible: Policies with a deductible of 400 monetary units are frequently involved in fraud.
+- **Age**: Most fraudulent claims come from individuals aged **31-40**.
+- **Gender**: There is a higher incidence of fraud among **men**.
+- **Location**: **Urban areas** show a higher frequency of fraudulent claims.
+- **Vehicle Brands**: Higher fraud rates are associated with brands like **Pontiac, Toyota, Honda, Mazda, and Chevrolet**.
+- **Timing**: Fraudulent claims are more common in **May and January**.
+- **Policy Type**: Fraudulent claims are more often linked to **comprehensive or collision coverage policies**.
+- **Deductible**: Policies with a **deductible of 400 monetary units** are frequently involved in fraud.
 
-Note: It’s important to consider the significant class imbalance in our dataset. And some variables, like deductible (400 monetary units), are common across both fraudulent and non-fraudulent cases. This overlap can make it challenging to distinguish between fraudulent and non-fraudulent claims in this dataset.
+Note: It’s important to consider the significant class imbalance in our dataset. And some variables, like deductible (400 monetary units) are common across both fraudulent and non-fraudulent cases. This overlap can make it challenging to distinguish between fraudulent and non-fraudulent claims in this dataset.
   
 (See the PowerBI screenshot for visual details included in the documentation)
 
 ### Challenges and Limitations
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
 
-- Severe Class Imbalance in the Dataset - Solution: Applied SMOTE technique to balance the dataset.
-- High Proportion of Categorical Variables - Solution: Used OneHotEncoder for encoding and created additional features.
-- Default decision threshold (0.5) was not optimal for maximizing the model's sensitivity - Solution: Adjusted the threshold to 0.2 to improve sensitivity.
-- Risk of Overfitting - Solution: Performed additional techniques, such as cross-validation, increased training data, and hyperparameter tuning, to mitigate it.
+- **Severe Class Imbalance in the Dataset** - Solution: Applied **SMOTE technique** to balance the dataset.
+- **High Proportion of Categorical Variables** - Solution: Used **OneHotEncoder** for encoding and created additional features.
+- Default decision **threshold (0.5)** was not optimal for maximizing the model's sensitivity - Solution: **Adjusted the threshold** to 0.2 to improve sensitivity.
+- **Risk of Overfitting** - Solution: Performed additional techniques, such as **cross-validation**, **increased training data**, and **hyperparameter tuning**, to mitigate it.
 
 ### Conclusions 📝
 - There is a lack of key data that directly affects fraud detection. We missed the ability to analyze crucial features, such as the amount of fraud, which is extremely relevant for detecting car insurance fraud.
@@ -92,4 +92,4 @@ In this project, we faced several challenges and limitations that were addressed
 - Implement a continuous feedback system
   
 ### Team 👥
-This project has been created by: Flora Comesaña & Noelia Beltrán
+This project has been created by: **Flora Comesaña & Noelia Beltrán**
