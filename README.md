@@ -74,7 +74,7 @@ Note: It’s important to consider the significant class imbalance in our datase
 ### Challenges and Limitations ⚠️
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
 
-- **Severe Class Imbalance in the Dataset** >>> **Solution**: Applied the **SMOTE technique** to balance the dataset. This method generates synthetic samples for the minority class, helping the model to learn better and reduce bias.
+- **Severe Class Imbalance in the Dataset** >>> **Solution**: Applied the **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the dataset. This method generates synthetic samples for the minority class, helping the model to learn better and reduce bias.
 - **High Proportion of Categorical Variables** >>> **Solution**: Used **OneHotEncoder** for encoding and created additional features.
 - **Default decision threshold (0.5)** was not optimal for maximizing the model's sensitivity >>> **Solution**: **Adjusted the threshold** to 0.2 to improve recall.
 - **Risk of Overfitting** >>> **Solution**: Performed additional techniques, such as **cross-validation**, **increased training data**, and **hyperparameter tuning**, to mitigate it.
