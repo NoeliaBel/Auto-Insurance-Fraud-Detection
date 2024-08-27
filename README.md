@@ -55,7 +55,7 @@ The performance of the selected model, the Gradient Boosting Classifier (GBC), w
 - **Accuracy**: The model achieved high accuracy on both the training set (98%) and the test set (96%). This indicates that the model generalizes well with minimal overfitting.
 - **AUC-ROC**: An AUC-ROC score of 99.4% demonstrates the model's strong ability to differentiate between fraudulent and non-fraudulent claims.
 - **Precision**: The precision of 66.8% indicates that when the model predicts fraud, it is correct approximately 66.8% of the cases. This suggests a significant number of false positives.
-- **Recall**: The recall of 98.2% shows that the model successfully detects 98.2% of fraud cases. This is a strong performance, as the primary goal is to identify as many fraud cases as possible.
+- **Recall (Sensitivity)**: The recall of 98.2% shows that the model successfully detects 98.2% of fraud cases. This is a strong performance, as the primary goal is to identify as many fraud cases as possible.
 - **F1 Score**: The F1 score of 79.5% reflects a good balance between precision and recall. While the F1 score indicates that the model effectively balances both aspects, the relatively low precision (66.8%) suggests there is room for improvement in the model’s performance.
 
 ### Fraud Patterns and Insights (Based on model results)
@@ -74,10 +74,10 @@ Note: It’s important to consider the significant class imbalance in our datase
 ### Challenges and Limitations
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
 
-- **Severe Class Imbalance in the Dataset** - Solution: Applied **SMOTE technique** to balance the dataset.
-- **High Proportion of Categorical Variables** - Solution: Used **OneHotEncoder** for encoding and created additional features.
-- Default decision **threshold (0.5)** was not optimal for maximizing the model's sensitivity - Solution: **Adjusted the threshold** to 0.2 to improve sensitivity.
-- **Risk of Overfitting** - Solution: Performed additional techniques, such as **cross-validation**, **increased training data**, and **hyperparameter tuning**, to mitigate it.
+- **Severe Class Imbalance in the Dataset** - **Solution**: Applied **SMOTE technique** to balance the dataset.
+- **High Proportion of Categorical Variables** - **Solution**: Used **OneHotEncoder** for encoding and created additional features.
+- **Default decision threshold (0.5)** was not optimal for maximizing the model's sensitivity - **Solution**: **Adjusted the threshold** to 0.2 to improve recall.
+- **Risk of Overfitting** - **Solution**: Performed additional techniques, such as **cross-validation**, **increased training data**, and **hyperparameter tuning**, to mitigate it.
 
 ### Conclusions 📝
 - There is a lack of key data that directly affects fraud detection. We missed the ability to analyze crucial features, such as the amount of fraud, which is extremely relevant for detecting car insurance fraud.
