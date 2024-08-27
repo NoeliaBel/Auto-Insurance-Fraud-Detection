@@ -47,15 +47,16 @@ We can see a preview of some elements of the exploratory analysis
 - Train and test metrics were compared to assess possible overfitting.
 
 ### Metrics
-The performance of the Gradient Boosting Classifier (GBC), the selected model, was evaluated using key metrics on both the training and test sets. Below are the results:
+The performance of the selected model, the Gradient Boosting Classifier (GBC), was evaluated using key metrics on both the training and test sets. Below are the results:
+
 ![image](https://github.com/user-attachments/assets/58bc5290-24dd-4ba1-a6e3-b001a844fba1)
 
 ### Key Results
 - Accuracy: The model achieved high accuracy on both the training set (0.98) and the test set (0.96). This indicates that the model generalizes well with minimal overfitting.
-- AUC-ROC: The AUC-ROC score is close to 1, with a value of 0.99 for both datasets, demonstrating the model's strong ability to distinguish between fraudulent and non-fraudulent claims.
-- Precision: The precision of 66.8% on the test set indicates that when the model predicts fraud, it is correct approximately 66.8% of the cases. This suggests a significant number of false positives.
-- Recall: The recall of 98.2% on the test set shows that the model successfully detects 98.2% of fraud cases. This is a strong performance, as the primary goal is to identify as many fraud cases as possible.
-- F1 Score: The F1 score of 79.5% on the test set reflects a good balance between precision and recall. While the F1 score indicates that the model effectively balances both aspects, the relatively low precision (66.8%) suggests there is room for improvement in the model’s performance.
+- AUC-ROC: An AUC-ROC score of 0.99 demonstrates the model's strong ability to differentiate between fraudulent and non-fraudulent claims.
+- Precision: The precision of 66.8% indicates that when the model predicts fraud, it is correct approximately 66.8% of the cases. This suggests a significant number of false positives.
+- Recall: The recall of 98.2% shows that the model successfully detects 98.2% of fraud cases. This is a strong performance, as the primary goal is to identify as many fraud cases as possible.
+- F1 Score: The F1 score of 79.5% reflects a good balance between precision and recall. While the F1 score indicates that the model effectively balances both aspects, the relatively low precision (66.8%) suggests there is room for improvement in the model’s performance.
 
 ### Challenges and Limitations
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
@@ -66,8 +67,10 @@ In this project, we faced several challenges and limitations that were addressed
 - Risk of Overfitting - Solution: Performed additional techniques, such as cross-validation, increased training data, and hyperparameter tuning, to mitigate it.
 
 ### Conclusions 📝
-- Despite these challenges, the model performs well with good detection rates. While there is still room for improvement, it meets the requirements and generally gives reliable results.
-- 
+- There is a lack of key data that directly affects fraud detection. We missed the ability to analyze crucial features, such as the amount of fraud, which is extremely relevant for detecting car insurance fraud.
+- Despite many adjustments, the model shows slight overfitting, showing slightly lower performance on the test set compared to the training set. Increasing the volume and quality of data could help improve generalization and overall performance.
+- Despite all challenges and limitations, the model is effective at detecting fraud. While there is still room for improvement, it meets the requirements and generally gives reliable results.
+  
 ### Future Improvements 🔧
 - Implementation of a scoring system that classifies clients based on their risk level.
 - Development of a regression model to predict the amount of fraud by requesting additional data (e.g., fraud amount) from the client.
