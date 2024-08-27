@@ -67,7 +67,7 @@ The performance of the selected model, the Gradient Boosting Classifier (GBC), w
 - Policy Type: Fraudulent claims are more often linked to comprehensive or collision coverage policies.
 - Deductible: Policies with a deductible of 400 monetary units are frequently involved in fraud.
 
-Note: It’s important to consider the significant class imbalance in our dataset.
+Note: It’s important to consider the significant class imbalance in our dataset. And some variables, like deductible (400 monetary units), are common across both fraudulent and non-fraudulent cases. This overlap can make it challenging to distinguish between fraudulent and non-fraudulent claims in this dataset.
   
 (See the PowerBI screenshot for visual details included in the documentation)
 
