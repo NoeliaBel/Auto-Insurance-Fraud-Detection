@@ -6,7 +6,7 @@ This project employs a machine learning classification algorithm to identify fra
 ![traffic-signs-464641_1920-1](https://github.com/user-attachments/assets/2fcf7e1c-91a7-4661-97bf-344796aad03b)
 
 
-### Technologies 💻
+### Technologies 💻 
 - **Programming Language**: Python
 - **Main Libraries**: NumPy, Pandas, Scikit-Learn
 - **AutoML Frameworks**: PyCaret, AutoGluon 
@@ -46,19 +46,19 @@ We can see a preview of some elements of the exploratory analysis
 - GridSearch was applied to the Gradient Boosting Classifier to optimize hyperparameters and improve model performance.
 - Train and test metrics were compared to assess possible overfitting.
 
-### Metrics
+### Metrics 📈
 The performance of the selected model, the Gradient Boosting Classifier (GBC), was evaluated using key metrics on both the training and test sets. Below are the results:
 
 ![image](https://github.com/user-attachments/assets/58bc5290-24dd-4ba1-a6e3-b001a844fba1)
 
-### Key Results
+### Key Results 🔍
 - **Accuracy**: The model achieved high accuracy on both the training set (98%) and the test set (96%). This indicates that the model generalizes well with minimal overfitting.
 - **AUC-ROC**: An AUC-ROC score of 99.4% demonstrates the model's strong ability to differentiate between fraudulent and non-fraudulent claims.
 - **Precision**: The precision of 66.8% indicates that when the model predicts fraud, it is correct approximately 66.8% of the cases. This suggests a significant number of false positives.
 - **Recall (Sensitivity)**: The recall of 98.2% shows that the model successfully detects 98.2% of fraud cases. This is a strong performance, as the primary goal is to identify as many fraud cases as possible.
 - **F1 Score**: The F1 score of 79.5% reflects a good balance between precision and recall. While the F1 score indicates that the model effectively balances both aspects, the relatively low precision (66.8%) suggests there is room for improvement in the model’s performance.
 
-### Fraud Patterns and Insights (Based on model results)
+### Fraud Patterns and Insights (Based on model results) 🕵️‍♂️
 - **Age**: Most fraudulent claims come from individuals aged **31-40**.
 - **Gender**: There is a higher incidence of fraud among **men**.
 - **Location**: **Urban areas** show a higher frequency of fraudulent claims.
@@ -71,7 +71,7 @@ Note: It’s important to consider the significant class imbalance in our datase
   
 (See the PowerBI screenshot for visual details included in the documentation)
 
-### Challenges and Limitations
+### Challenges and Limitations ⚠️
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
 
 - **Severe Class Imbalance in the Dataset** >>> **Solution**: Applied **SMOTE technique** to balance the dataset.
