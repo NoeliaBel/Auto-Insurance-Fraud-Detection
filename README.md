@@ -69,7 +69,7 @@ The performance of the selected model, the Gradient Boosting Classifier (GBC), w
 
 Note: It’s important to consider the significant class imbalance in our dataset. And some variables, like deductible (400 monetary units) are common across both fraudulent and non-fraudulent cases. This overlap can make it challenging to distinguish between fraudulent and non-fraudulent claims in this dataset.
   
-(See the PowerBI screenshot for visual details included in the documentation 'PowerBI_Dashboard') or click here: PowerBI_Dashboard/PowerBI.pdf
+(See the PowerBI screenshot for visual details included in the documentation 'PowerBI_Dashboard')
 
 ### Challenges and Limitations ⚠️
 In this project, we faced several challenges and limitations that were addressed through targeted strategies:
